@@ -1,0 +1,192 @@
+name: Duane Jeffers
+header:
+  profile: 
+    file: images/profile-rounded.png
+    size: 46pt
+  summary: 18 Year Professional Backend Engineer with 7+ years of Game and Live Services Experience
+  links:
+    - icon: location-dot
+      type: Free Solid
+      link: https://maps.app.goo.gl/76nEE8tCX1i7obHV8
+      display: Winchester, CA, USA
+    - icon: envelope
+      type: Free
+      link: mailto:dj@duanejeffers.com
+    - icon: phone
+      type: Free Solid
+      link: tel:+19513785766
+      display: (951) 378-5766
+    - icon: linkedin
+      type: Brands
+      link: https://linkedin.com/in/duanejeffers
+      display: duanejeffers
+    - icon: github
+      type: Brands
+      link: https://github.com/duanejeffers
+      display: duanejeffers
+    - icon: globe
+      type: Free Solid
+      link: https://duanejeffers.com
+      display: DuaneJeffers.com
+
+skills:
+  - section_title: Languages
+    data:
+      - name: Golang
+        level: 8
+        years: 6
+      - name: C#
+        level: 6
+        years: 5
+      - name: C/C++
+        level: 6
+        years: 20
+      - name: BASH
+        level: 9
+        years: 25
+      - name: PHP
+        level: 9
+        years: 25
+      - name: SQL
+        level: 9
+        years: 25
+      - name: Javascript
+        level: 8
+        years: 20
+      - name: CSS
+        level: 7
+        years: 20
+      - name: Typst
+        level: 4
+        years: 1
+  - section_title: Live Service/Operations
+    data:
+      - name: Service Systems Design
+      - name: Live Service Administration and Automation
+      - name: Large Data Processing with Datalakes for Analytics
+      - name: Multiregion Service Scaling
+      - name: Multiplayer Server Orchestration
+      - name: Client SDK Authoring
+  - section_title: Additional Skills
+    data:
+      - name: Team Leadership
+      - name: Prototyping
+      - name: Automation
+
+history:
+  - organization: SuperNatural Game Studios
+    role: Sr. Live Services Engineer
+    location: Remote
+    start: April, 2022
+    end: July, 2023
+    highlights:
+      - Part of a 3-person Services Team, responsible for creating prototype services for an unannounced eSports title.
+      - Provided expert advice in server orchestration and data analytics, along with architecting future services and administration tooling.
+      - Responsible for gathering systems requirements and documenting from key stakeholders belonging to external clients/publisher and internal teams.
+    projects:
+      - name: Game Config Service
+        description: A custom API to allow remote administration of game clients and multiplayer servers and pass A/B Testing configurations to cohorts.
+        skills:
+          - Serverless (Lambda, Cloud Functions)
+          - NoSQL Database
+      - name: Telemetry Service
+        description: A high availability intake service for telemetry events from Unreal Clients and Servers with custom event payloads and schema validations, with ability to siphon events to third parties.
+        skills:
+          - Serverless
+          - High Availability API Architecting and Execution
+      - name: Identity Proxy and OAuth Service
+        description: Used to sit between live players and publisher/platform services, the Identity Proxy would allow for a publisher-required identity services to be integrated without exposing the publisher's service. 
+        skills:
+         - Service Multiregion Scaling
+         - Microservice Architecting
+  - organization: thirteen games
+    role: Lead Contract Live Services Engineer
+    location: Remote
+    start: October, 2020
+    end: April, 2022
+    highlights:
+      - Part of an 8-person Tech Team, responsible for helping lead Live Service initiatives with the CTO for the Unity mobile game, Nova Island
+      - Provided expert advice in Database instrumentation, optimizations, and automation, Caching and memory management techniques on the server, and code quality.
+      - Served as Backup Team Leader when CTO is unavailable for critical decision making, Lead Live Ops during releases and outages, and an expert Database Administrator for client team members.
+    projects:
+      - name: Leaderboards
+        description: Utilizing Redis, implemented wildcard leaderboards that populated data directly from match results, with reset abilities for live service season switchovers.
+        skills:
+          - Redis
+          - Live Service Season Administration
+      - name: Player Presence
+        description: Responsible for helping lead feature development on player presense on geographical servers for multiplayer across regions.
+        skills:
+          - Redis
+          - Scaling / Multiregion
+      - name: Analytics, Refactoring and Cost Savings
+        description: Refactored Google Dataflow intake containers to a serverless injest system with a near 25% cost reduction for live game analytics.
+        skills:
+          - Big Data
+          - Serverless
+          - Refactoring
+      - name: Game Administration and Tooling
+        description: Implemented custom tooling for database schema updates and migrations, in-game bug reporting, and live service automation.
+        skills:
+          - Game Administration
+          - Game Automation
+  - organization: Psyonix/Epic Games
+    role: Online Services Engineer
+    location: San Diego, CA, USA
+    start: July, 2018
+    end: May, 2020
+    highlights:
+      - Part of a 15-person team, responsible for all non-gameplay related actions and administration for the video game, Rocket League.
+      - Lead feature development on important data quality-of-life updates for players and analytics.
+    projects:
+      - name: External Match API
+        description: API Service used by third-party matchmaking websites to create and administrate live games hosted using the PsyNet infrastructure.
+        skills:
+          - Third-Party Requirement Gathering
+          - Documenting for External Parties
+          - Matchmaking
+      - name: In-Game Product Features and Quality-of-Life Updates
+        description: Added new product class types to the game, archived 2.8 Billion product ownership entitlements from a hot table, and assisted Analytics in investigating Trade-washing by replaying live transactions while the game is active.
+        skills:
+          - Database Large Schema Migration (pt-online-schema-change)
+          - Long-Running Data Operations on Hot Tables
+  - organization: Everwall, Inc.
+    role: Lead PHP API Engineer
+    location: Remote
+    start: November, 2015
+    end: July, 2018
+  - organization: Tyler Junior College
+    location: Tyler, TX, USA
+    start: July, 2014
+    end: Feburary, 2016
+  - organization: Illuminate Education
+    location: Irvine, CA, USA
+    start: January, 2013
+    end: January, 2014
+  - organization: Aquent/Disney Parks and Resorts
+    location: Celebration, FL, USA
+  - organization: Ideomen, LLC
+    location: Remote
+  - organization: AKT Enterprises
+    location: Orlando, FL, USA
+  - organization: Superfly Advertising
+    location: San Diego, CA, USA
+  - organization: Infoswell
+    location: Murrieta, CA, USA
+
+volunteerism:
+  - organization: Game Developers Conference Associates
+    years:
+      - 2006
+      - 2007
+      - 2008
+      - 2009
+      - 2010
+      - 2011
+      - 2012
+      - 2013
+      - 2014
+  - organization: Game Developers Conference Associates Staff
+    years:
+      - 2013
+      - 2014
